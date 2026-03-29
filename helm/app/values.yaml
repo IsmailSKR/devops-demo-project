@@ -7,7 +7,7 @@ replicaCount: 2
 image:
   githubID: ismailskr
   repository: ismailskr/demo-java-app
-  pullPolicy: IfNotPresent
+  pullPolicy: Never
   # Overrides the image tag whose default is the chart appVersion.
   tag: "V1.0"
 
